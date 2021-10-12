@@ -48,6 +48,9 @@ We will follow [Semantic Versioning](http://semver.org/) from version 2 and onwa
 * Adds Greek transition words and activates the transition words assessment.
 * Adds a language folder and Researcher for Greek. 
 * Moves the initialization of Keyphrase distribution assessment inside `AnalysisWebWorker.js`.
+* Adds external stemmer for Greek.
+* Improves keyphrase recognition in Greek by filtering out function words such as `στον`, `τρίτος`, `τέτοιους`, `ποιανής`.
+* Implements passive voice assessment for Greek.
 
 
 ## 1.92.0
