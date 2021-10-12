@@ -236,6 +236,9 @@ Your question has most likely been answered on our help center: [yoast.com/help/
 
 == Changelog ==
 
+= 17.5 =
+Release Date: October 26th, 2021
+
 = 17.4 =
 Release Date: October 19th, 2021
 
@@ -248,26 +251,6 @@ Bugfixes:
 * Fixes a bug where the `url` property in the search page schema would be empty.
 * Fixes a bug where a duplicate canonical tag was output for web stories created with the Web Stories plugin. Props to [swissspidey](https://github.com/swissspidy).
 * Fixes a bug where a race condition could occur that caused the rewrite rules to be flushed on every page request when using a persistent cache like Redis.
-
-= 17.3 =
-Release Date: October 5th, 2021
-
-Yoast SEO 17.3 is out today! This release includes general bug fixes to some SEO assessments and improvements to indexables data management. Now is as good a time as any to start optimizing your content with Yoast SEO! Read more about what's new in Yoast SEO 17.3 in [our release post](https://yoa.st/release-17-3)!
-
-Enhancements:
-
-* Improves the accuracy of the Keyphrase in slug assessment by correctly detecting multi-word keyphrases with at least one hyphenated word in the slug.
-* Changes the default color for overall scores to red.
-
-Bugfixes:
-
-* Fixes a bug where the meta description bar indicator color would not always match the color of the assessment bullet.
-* Fixes a bug where the placement variables Category, Name and Tag would not show up in the snippet preview.
-* Fixes a bug where the `path` of open graph images of the JSON head would be incorrect.
-
-Other:
-
-* Adds version management to our indexables framework; this makes the SEO Optimization process more robust, and prepares for future features.
 
 = Earlier versions =
 For the changelog of earlier versions, please refer to [the changelog on yoast.com](https://yoa.st/yoast-seo-changelog).
